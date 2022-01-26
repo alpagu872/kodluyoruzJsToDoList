@@ -26,6 +26,22 @@ ul li:nth-child(odd) {
   background: #f9f9f9;
 }
 
+#hepsinisil{
+  float: right;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid #dc3545;
+  padding: 5px 10px;
+  color: #dc3545;
+}
+
+#hepsinisil:hover{
+  background: #dc3545;
+  color: white;
+  cursor: pointer;
+  transition: .3s all;
+}
+
 ul li:hover {
   background: #ddd;
 }
@@ -104,4 +120,15 @@ input {
 
 .button:hover {
   background-color: #bbb;
+}
+ 
+i{
+  float: right;
+  color: gray;
+}
+
+i:hover{
+  color: black;
+  transition: .3s all;
+  cursor: pointer;
 }
